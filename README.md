@@ -3,7 +3,7 @@
 > Discover your next favorite movie with **AI-powered recommendations** — sleek, smart, and built for movie lovers.
 
 <p align="center">
-  <img src="https://github.com/usmanamin3254/ai-movie-recommender/blob/main/assets/ai_movie_recommender_preview.png?raw=true" alt="AI Movie Recommender Preview" width="800"/>
+  <img src="https://github.com/usmanamin3254/ai-movie-recommender/blob/main/ai_movie_recommender_preview.png?raw=true" alt="AI Movie Recommender Preview" width="800"/>
 </p>
 
 ---
