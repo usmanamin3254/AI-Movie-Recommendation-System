@@ -22,7 +22,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://img.shields.io/badge/Clone%20Repo-Git-blue?logo=git&logoColor=white" alt="Clone Repo"/>
+    <img src="https://img.shields.io/badge/Clone%20Repo-Git-blue?logo=git&logoColor=white" alt="[Clone Repo](https://github.com/usmanamin3254/AI-Movie-Recommendation-System.git)"/>
     &nbsp;
     <img src="https://img.shields.io/badge/Install-Python-green?logo=python&logoColor=white" alt="Install Python"/>
     &nbsp;
