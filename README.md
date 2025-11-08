@@ -26,7 +26,6 @@
     &nbsp;
     <img src="https://img.shields.io/badge/Install-Python-green?logo=python&logoColor=white" alt="Install Python"/>
     &nbsp;
-    <img src="https://img.shields.io/badge/Run-App-Streamlit-orange?logo=streamlit&logoColor=white" alt="Run App"/>
   </kbd>
 </p>
 
@@ -54,9 +53,8 @@ Copy code
 streamlit run app.py
 Open the URL provided by Streamlit in your browser. Done! 🎉
 
-✨ Feature Highlights
-<p align="center"> <table> <tr> <td align="center"> <img src="https://via.placeholder.com/200x300.png?text=Recommendations" alt="Smart Recommendations" width="200"/><br> <b>Smart Movie Recommendations</b><br>Top 5 AI-powered suggestions </td> <td align="center"> <img src="https://via.placeholder.com/200x300.png?text=Movie+Details" alt="Movie Details" width="200"/><br> <b>Rich Movie Details</b><br>Posters, ratings, genres, overview </td> <td align="center"> <img src="https://via.placeholder.com/200x300.png?text=Live+Integration" alt="TMDb Integration" width="200"/><br> <b>Live TMDb Integration</b><br>Always up-to-date movie info </td> </tr> <tr> <td align="center"> <img src="https://via.placeholder.com/200x300.png?text=Responsive+UI" alt="UI Design" width="200"/><br> <b>Sleek UI</b><br>Gradient styling & hover effects </td> <td align="center"> <img src="https://via.placeholder.com/200x300.png?text=Fast+Performance" alt="Performance" width="200"/><br> <b>Optimized Performance</b><br>Cached results for faster loads </td> <td align="center"> <img src="https://via.placeholder.com/200x300.png?text=Error+Handling" alt="Error Handling" width="200"/><br> <b>Error Handling</b><br>Gracefully manages missing movies or API issues </td> </tr> </table> </p>
 🧠 Tech Stack
+
 Component	Technology
 Language	Python 3.10+
 Framework	Streamlit
@@ -65,6 +63,7 @@ Libraries	requests, pandas, pickle
 Storage	Precomputed similarity matrix (similarity.pkl)
 
 ⚙️ Prerequisites
+
 🐍 Python 3.10+
 
 🔑 TMDb API Key (keep it private in app.py)
@@ -90,8 +89,7 @@ Explore the Top 5 recommended movies, complete with:
 🧾 Overview
 
 🧩 Project Structure
-bash
-Copy code
+
 ai-movie-recommender/
 │
 ├── app.py                         # Main Streamlit application
@@ -101,13 +99,19 @@ ai-movie-recommender/
 ├── assets/
 │   └── ai_movie_recommender_preview.png
 └── README.md
+
 🎨 Customization
+
 Feature	How to Modify
+
 TMDb API Key	Replace TMDB_API_KEY in app.py
+
 Dataset	Update or rebuild using Notebook.ipynb
+
 UI Styling	Adjust CSS in Streamlit section
 
 ⚠️ Limitations
+
 Recommendations rely on a precomputed similarity matrix
 
 TMDb API rate limits apply
@@ -115,6 +119,7 @@ TMDb API rate limits apply
 Requires local .pkl files to function correctly
 
 📄 License
+
 MIT License © 2025
 Usman Amin (@usmanamin3254)
 Project: AI-Movie Recommendation System
