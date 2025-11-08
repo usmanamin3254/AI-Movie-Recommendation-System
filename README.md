@@ -1,9 +1,9 @@
-# 🎬 AI Movie Recommender
+# 🎬 AI - Movie Recommendation System
 
 > Discover your next favorite movie with **AI-powered recommendations** — sleek, smart, and built for movie lovers.
 
 <p align="center">
-  <img src="https://github.com/usmanamin3254/ai-movie-recommender/blob/main/ai_movie_recommender_preview.png?raw=true" alt="AI Movie Recommender Preview" width="800"/>
+  <img src="https://github.com/usmanamin3254/ai-movie-recommendation-System/blob/main/Screenshot 2025-11-08 220639.png?raw=true" alt="AI Movie Recommender Preview" width="800"/>
 </p>
 
 ---
@@ -13,7 +13,7 @@
   <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit"></a>
   <a href="https://www.themoviedb.org/documentation/api"><img src="https://img.shields.io/badge/API-TMDb-01B4E4?logo=themoviedatabase&logoColor=white" alt="TMDb API"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License"></a>
-  <a href="https://github.com/usmanamin3254/ai-movie-recommender/stargazers"><img src="https://img.shields.io/github/stars/usmanamin3254/ai-movie-recommender?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/usmanamin3254/ai-movie-recommendation-System/stargazers"><img src="https://img.shields.io/github/stars/usmanamin3254/ai-movie-recommendation-system?style=social" alt="GitHub Stars"></a>
 </p>
 
 ---
@@ -32,7 +32,7 @@
 
 1. **Clone the repository**  
 ```bash
-git clone https://github.com/usmanamin3254/ai-movie-recommender.git
+git clone https://github.com/usmanamin3254/ai-movie-recommendation-system.git
 cd ai-movie-recommender
 (Optional) Set up a virtual environment
 
@@ -47,7 +47,6 @@ Install dependencies
 
 bash
 Copy code
-pip install -r requirements.txt
 Run the app
 
 bash
@@ -72,9 +71,8 @@ Storage	Precomputed similarity matrix (similarity.pkl)
 
 📂 movie_list.pkl & similarity.pkl in project root
 
-⚠️ Never share your API key publicly.
-
 🔍 How It Works
+
 Select or search for a movie.
 
 Click “Get Recommendations.”
@@ -99,8 +97,7 @@ ai-movie-recommender/
 ├── app.py                         # Main Streamlit application
 ├── Notebook.ipynb                 # Builds movie dataset & similarity matrix
 ├── movie_list.pkl                 # Movie metadata
-├── similarity.pkl                 # Precomputed similarity matrix
-├── requirements.txt               # Dependencies
+├── similarity.pkl                 # Precomputed similarity matrix           
 ├── assets/
 │   └── ai_movie_recommender_preview.png
 └── README.md
