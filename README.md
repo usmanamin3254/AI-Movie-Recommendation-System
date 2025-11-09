@@ -29,67 +29,74 @@
   </kbd>
 </p>
 
-1. **Clone the repository**  
+
+# Installation Process: 
+
+1. **Clone the repository**
+    
 ```bash
 git clone https://github.com/usmanamin3254/ai-movie-recommendation-system.git
 cd ai-movie-recommender
-(Optional) Set up a virtual environment
+```
 
-bash
-Copy code
+2. **Set up a virtual environment**
+
+```bash
 python -m venv venv
-# Linux/macOS
-source venv/bin/activate
-# Windows
-venv\Scripts\activate
+source venv/bin/activate     # Linux/macOS
+venv\Scripts\activate        # Windows
 Install dependencies
+```
+# Run The Application:
 
-bash
-Copy code
-Run the app
-
-bash
-Copy code
+```bash
 streamlit run app.py
+```
+
 Open the URL provided by Streamlit in your browser. Done! 🎉
 
-🧠 Tech Stack
 
-Component	Technology
-Language	Python 3.10+
-Framework	Streamlit
-API	TMDb (The Movie Database)
-Libraries	requests, pandas, pickle
-Storage	Precomputed similarity matrix (similarity.pkl)
+# 🧠 Tech Stack
 
-⚙️ Prerequisites
+**Component**	**Technology**
+**Language**	**Python 3.10+**
+**Framework**	**Streamlit**
+**API**	**TMDb (The Movie Database)**
+**Libraries**	**requests, pandas, pickle**
+**Storage**	**Precomputed similarity matrix (similarity.pkl)**
 
-🐍 Python 3.10+
 
-🔑 TMDb API Key (keep it private in app.py)
+# ⚙️ Prerequisites
 
-📂 movie_list.pkl & similarity.pkl in project root
+🐍 **Python 3.10+**
 
-🔍 How It Works
+🔑 **TMDb API Key**
+
+📂 **movie_list.pkl & similarity.pkl in project root**
+
+
+# 🔍 How It Works
 
 Select or search for a movie.
 
-Click “Get Recommendations.”
+Click “**Get Recommendations**”
 
 Explore the Top 5 recommended movies, complete with:
 
-🎞️ Poster
+🎞️ **Poster**
 
-⭐ Rating
+⭐ **Rating**
 
-📆 Release Year
+📆 **Release Year**
 
-🎭 Genres
+🎭 **Genres**
 
-🧾 Overview
+🧾 **Overview**
 
-🧩 Project Structure
 
+# 🧩 Project Structure
+
+```bash
 ai-movie-recommender/
 │
 ├── app.py                         # Main Streamlit application
@@ -99,8 +106,10 @@ ai-movie-recommender/
 ├── assets/
 │   └── ai_movie_recommender_preview.png
 └── README.md
+```
 
-🎨 Customization
+
+# 🎨 Customization
 
 Feature	How to Modify
 
@@ -110,7 +119,8 @@ Dataset	Update or rebuild using Notebook.ipynb
 
 UI Styling	Adjust CSS in Streamlit section
 
-⚠️ Limitations
+
+# ⚠️ Limitations
 
 Recommendations rely on a precomputed similarity matrix
 
@@ -118,7 +128,8 @@ TMDb API rate limits apply
 
 Requires local .pkl files to function correctly
 
-📄 License
+
+# 📄 License
 
 MIT License © 2025
 Usman Amin (@usmanamin3254)
